@@ -1,7 +1,11 @@
+import React from 'react'
 import type {Metadata} from 'next'
 import {Inter} from 'next/font/google'
 import {ClerkProvider} from '@clerk/nextjs'
 import {dark} from '@clerk/themes'
+import Navbar from '../../components/shared/Navbar'
+import LeftSidebar from '../../components/shared/LeftSidebar'
+import Footer from '../../components/shared/Footer'
 
 import '../globals.css'
 
@@ -20,7 +24,18 @@ export default function RootLayout({children}: {children: React.ReactNode}) {
       }}
     >
       <html lang="en">
-        <body className={`${inter.className}`}>{children}</body>
+        <body className={`${inter.className}`}>
+          <Navbar />
+
+          <main className="flex flex-row">
+            <LeftSidebar />
+            <section className="main-container">
+              <div className="w-full max-w-4xl">{children}</div>
+            </section>
+          </main>
+
+          <Footer />
+        </body>
       </html>
     </ClerkProvider>
   )
