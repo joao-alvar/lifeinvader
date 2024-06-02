@@ -5,7 +5,8 @@ import {ClerkProvider} from '@clerk/nextjs'
 import {dark} from '@clerk/themes'
 import Navbar from '../../components/shared/Navbar'
 import LeftSidebar from '../../components/shared/LeftSidebar'
-import Footer from '../../components/shared/Footer'
+import Bottombar from '../../components/shared/Bottombar'
+import RightSidebar from '../../components/shared/RightSidebar'
 
 import '../globals.css'
 
@@ -32,9 +33,12 @@ export default function RootLayout({children}: {children: React.ReactNode}) {
             <section className="main-container">
               <div className="w-full max-w-4xl">{children}</div>
             </section>
+
+            {/* @ts-ignore */}
+            <RightSidebar />
           </main>
 
-          <Footer />
+          <Bottombar />
         </body>
       </html>
     </ClerkProvider>
