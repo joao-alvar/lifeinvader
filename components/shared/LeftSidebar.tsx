@@ -43,20 +43,20 @@ const LeftSidebar = () => {
       </div>
 
       <div className="mt-10 px-6">
-        {/* <SignedIn> */}
-        <SignOutButton redirectUrl="/sign-in">
-          <div className="flex cursor-pointer gap-4 p-4">
-            <Image
-              src="/images/static/logout.svg"
-              alt="logout"
-              width={24}
-              height={24}
-            />
+        <SignedIn>
+          <SignOutButton redirectUrl="/sign-in">
+            <div className="flex cursor-pointer gap-4 p-4">
+              <Image
+                src="/images/static/logout.svg"
+                alt="logout"
+                width={24}
+                height={24}
+              />
 
-            <p className="text-light-2 max-lg:hidden">Logout</p>
-          </div>
-        </SignOutButton>
-        {/* </SignedIn> */}
+              <p className="text-light-2 max-lg:hidden">Logout</p>
+            </div>
+          </SignOutButton>
+        </SignedIn>
       </div>
     </section>
   )
