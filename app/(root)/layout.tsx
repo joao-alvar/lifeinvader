@@ -5,7 +5,7 @@ import {ClerkProvider} from '@clerk/nextjs'
 import {dark} from '@clerk/themes'
 import Navbar from '../../components/shared/Navbar'
 import LeftSidebar from '../../components/shared/LeftSidebar'
-import Footer from '../../components/shared/Footer'
+import Bottombar from '../../components/shared/Bottombar'
 
 import '../globals.css'
 
@@ -34,7 +34,7 @@ export default function RootLayout({children}: {children: React.ReactNode}) {
             </section>
           </main>
 
-          <Footer />
+          <Bottombar />
         </body>
       </html>
     </ClerkProvider>
