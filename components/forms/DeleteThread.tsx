@@ -27,7 +27,7 @@ function DeleteThread({
 
   return (
     <Image
-      src="/assets/delete.svg"
+      src="/images/static/delete.svg"
       alt="delte"
       width={18}
       height={18}
