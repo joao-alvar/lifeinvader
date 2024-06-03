@@ -1,8 +1,7 @@
 <div align="center">
   <br />
-      <img src="https://github.com/joao-alvar/threads/preview.png" alt="Project Banner">
+      <img src="https://github.com/joao-alvar/threads/blob/dev/preview.png" alt="Project Banner">
   <br />
-
   <div>
     <img src="https://img.shields.io/badge/-Next_JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000000" alt="nextdotjs" />
     <img src="https://img.shields.io/badge/-MongoDB-black?style=for-the-badge&logoColor=white&logo=mongodb&color=47A248" alt="mongodb" />
@@ -14,6 +13,7 @@
   </div>
 
   <h3 align="center">Um clone full stack do Threads</h3>
+</div>
 
 ## 📋 <a name="table">Índice</a>
 
