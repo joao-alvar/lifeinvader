@@ -128,7 +128,7 @@ const AccountProfile = ({user, btnTitle}: Props) => {
                   />
                 ) : (
                   <Image
-                    src="/assets/profile.svg"
+                    src="/images/static/profile.svg"
                     alt="profile_icon"
                     width={24}
                     height={24}
@@ -199,7 +199,7 @@ const AccountProfile = ({user, btnTitle}: Props) => {
               </FormLabel>
               <FormControl>
                 <Textarea
-                  rows={10}
+                  rows={7}
                   className="account-form_input no-focus"
                   {...field}
                 />
