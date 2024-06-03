@@ -70,7 +70,7 @@ Threads clone é um app que tem funcionalidades do Threads como postar uma Threa
 
 👉 **Desempenho extremamente rápido**: desempenho ideal e troca instantânea de páginas para uma experiência de usuário perfeita.
 
-👉 **Renderização do lado do servidor **: Utilizando Next.js com renderização do lado do servidor para melhorar o desempenho e benefícios de SEO.
+👉 **Renderização do lado do servidor**: Utilizando Next.js com renderização do lado do servidor para melhorar o desempenho e benefícios de SEO.
 
 👉 **MongoDB com esquemas complexos**: Lide com esquemas complexos e múltiplas populações de dados usando MongoDB.
 
@@ -80,7 +80,7 @@ Threads clone é um app que tem funcionalidades do Threads como postar uma Threa
 
 👉 **Middleware, ações de API e autorização**: Utilizando middleware, ações de API e autorização para obter segurança robusta de aplicativos.
 
-👉 **Grupos de rotas de layout Next.js **: novos grupos de rotas de layout Next.js para roteamento eficiente
+👉 **Grupos de rotas de layout Next.js**: novos grupos de rotas de layout Next.js para roteamento eficiente
 
 👉 **Validação de dados com Zod**: Integridade de dados com validação de dados usando Zod
 
